@@ -14,27 +14,21 @@
 </head>
 <body>
 
-<nav class="nav-extended teal">
+<nav class="nav-extended teal hide-on-med-and-down">
     <div class="nav-wrapper container">
         <div class="row" style="margin-bottom: 0">
-            <div class="col s5 valign-wrapper left-align " style="height:inherit; vertical-align: middle">
-                <img class=""  src="http://www.whu.edu.cn/ch_template/img/logo.png">
-            </div>
+            <a class="col s5  " ><img class="background valign-wrapper" style="padding: 24px" src="http://www.whu.edu.cn/ch_template/img/logo.png"></a>
             <div class="col s7 ">
                 <h4 class="row center">胡庆武教授研究团队</h4>
                 <h6 class="row center">Dr.Qingwu Hu's Research Group</h6>
             </div>
         </div>
 
-        <!--<a href="#!" class="brand-logo center black-text">胡庆武教授研究团队</a>-->
-        <!--<a href="#!" class="brand-logo center black-text"></a>-->
-        <!--<span class="nav-title right black-text">Dr.Qingwu Hu's Research Group</span>-->
     </div>
     <div class="nav-content ">
-        <nav class="navbar-fixed white">
+        <nav class="navbar-fixed fixed white">
             <div class=" container">
-                <a href="#" class="brand-logo right">Logo</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <ul id="nav-desktop" class="left hide-on-med-and-down">
                     <li><a class="black-text" href="#">主页</a></li>
                     <li><a class="black-text" href="#">胡庆武简介</a></li>
                     <li><a class="black-text" href="#">研究团队</a></li>
@@ -44,70 +38,70 @@
                     <li><a class="black-text" href="#">试验设备</a></li>
                     <li><a class="black-text" href="#">English</a></li>
                 </ul>
+
             </div>
         </nav>
     </div>
 </nav>
 
-<!--<nav class="navbar-fixed white" role="navigation">-->
-    <!--<div class="nav-wrapper container">-->
-        <!--<a id="logo-container" href="#" class="brand-logo black-text">数字生活课题组</a>-->
+<nav class="nav-mobile white hide-on-large-only">
+    <div class="nav-wrapper container ">
+        <a href="#" class="brand-logo center teal-text" style="font-size: x-large">胡庆武教授研究团队</a>
 
-        <!--<ul class="right hide-on-med-and-down">-->
-            <!--<li><a class="black-text" href="#">主页</a></li>-->
-            <!--<li><a class="black-text" href="#">胡庆武简介</a></li>-->
-            <!--<li><a class="black-text" href="#">研究团队</a></li>-->
-            <!--<li><a class="black-text" href="#">研究方向</a></li>-->
-            <!--<li><a class="black-text" href="#">发表论文</a></li>-->
-            <!--<li><a class="black-text" href="#">所获奖项</a></li>-->
-            <!--<li><a class="black-text" href="#">试验设备</a></li>-->
-            <!--<li><a class="black-text" href="#">English</a></li>-->
-        <!--</ul>-->
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="userView">
+                    <div class="background">
+                        <img class="responsive-img" src="images/office.jpg">
+                    </div>
+                    <a href="#!user"><img class="circle"
+                                          src="http://www.whu.edu.cn/_mediafile/whu/2015/02/06/2dmsg9ycj4.png"></a>
+                    <a href="#!name"><span class="white-text name">胡庆武教授研究团队</span></a>
+                    <a href="#!email"><span class="white-text email">Dr.Qingwu Hu's Research Group</span></a>
+                </div>
+            </li>
+            <li><a class="waves-effect" href="index.html">主页</a></li>
+            <li><a class="waves-effect" href="#">胡庆武简介</a></li>
+            <li><a class="waves-effect" href="#">研究团队</a></li>
+            <li><a class="waves-effect" href="#">研究方向</a></li>
+            <li><a class="waves-effect" href="#">发表论文</a></li>
+            <li><a class="waves-effect" href="#">所获奖项</a></li>
+            <li><a class="waves-effect" href="#">试验设备</a></li>
+            <li><a class="waves-effect" href="#">English</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons teal-text">menu</i></a>
 
-        <!--<ul id="nav-mobile" class="sidenav">-->
-            <!--<li><a href="#">Navbar Link</a></li>-->
+    </div>
 
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">主页</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">胡庆武简介</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">研究团队</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">研究方向</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">发表论文</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">所获奖项</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">试验设备</a></li>&ndash;&gt;-->
-            <!--&lt;!&ndash;<li><a class="black-text" href="#">English</a></li>&ndash;&gt;-->
-        <!--</ul>-->
-        <!--<a href="#" data-target="nav-mobile" class="sidenav-trigger black"><i class="material-icons">menu</i></a>-->
-    <!--</div>-->
-
-<!--</nav>-->
+</nav>
 
 <div class="container ">
 
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="http://www.whu.edu.cn/images/2018013101.png"> <!-- random image -->
+                <img class="responsive-img" src="http://www.whu.edu.cn/images/2018013101.png"> <!-- random image -->
                 <div class="caption center-align">
                     <h3></h3>
                     <h5 class="light grey-text text-lighten-3"></h5>
                 </div>
             </li>
             <li>
-                <img src="http://www.whu.edu.cn/images/2018011901.jpg"> <!-- random image -->
+                <img class="responsive-img" src="http://www.whu.edu.cn/images/2018011901.jpg"> <!-- random image -->
                 <div class="caption left-align">
                     <h3></h3>
                     <h5 class="light grey-text text-lighten-3"></h5>
                 </div>
             </li>
             <li>
-                <img src="http://www.whu.edu.cn/images/2018011901.jpg"> <!-- random image -->
+                <img class="responsive-img" src="http://www.whu.edu.cn/images/2018011901.jpg"> <!-- random image -->
                 <div class="caption right-align">
                     <h3></h3>
                     <h5 class="light grey-text text-lighten-3"></h5>
                 </div>
             </li>
             <li>
-                <img src="http://www.whu.edu.cn/images/2018011201.jpg"> <!-- random image -->
+                <img class="responsive-img" src="http://www.whu.edu.cn/images/2018011201.jpg"> <!-- random image -->
                 <div class="caption center-align">
                     <h3></h3>
                     <h5 class="light grey-text text-lighten-3"></h5>
@@ -129,7 +123,7 @@
             </div>
             <div class="card horizontal hoverable">
                 <div class="card-image">
-                    <img src="http://www.whu.edu.cn/__local/4/C5/A8/317E341A31CEBFDAD195DCAE577_D4CC377C_14228.jpg">
+                    <img class="responsive-img" src="http://www.whu.edu.cn/__local/4/C5/A8/317E341A31CEBFDAD195DCAE577_D4CC377C_14228.jpg">
                 </div>
                 <div class="card-stacked">
                     <div class="card-title" style="padding-left:24px">英国首相特雷莎•梅首次访华首站访问武大</div>
@@ -142,7 +136,21 @@
         <div class="col s12 m6">
             <h5 class="header">最新成果</h5>
             <div class="row">
-                <div class="col s12 m6">
+                <div class="col s12 m12 l6">
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://www.whu.edu.cn/__local/4/C5/A8/317E341A31CEBFDAD195DCAE577_D4CC377C_14228.jpg">
+                            <span class="card-title">英国首相特雷莎•梅首次访华首站访问武大</span>
+                        </div>
+                        <div class="card-content">
+                            <p>新闻网讯（记者陈丽霞）“你们是未来的领袖，我希望你们未来能够继续为促进中英两国关系做贡献。”1月31日，首次对中国进行国事访问的英国首相特雷莎·梅...</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">本文链接</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l6">
                     <div class="card hoverable">
                         <div class="card-image">
                             <img src="http://www.whu.edu.cn/__local/4/C5/A8/317E341A31CEBFDAD195DCAE577_D4CC377C_14228.jpg">
@@ -160,54 +168,54 @@
 
         </div>
         <!--<div class="col m6 s12 ">-->
-            <!--<div class="card black-text darken-1">-->
-                <!--<div class="card-content">-->
-                    <!--<span class="card-title">新闻通信</span>-->
-                    <!--<p>I am a very simple card. I am good at containing small bits of information.-->
-                        <!--I am convenient because I require little markup to use effectively.</p>-->
-                    <!--<ul class="collection">-->
-                        <!--<li class="collection-item">Alvin</li>-->
-                        <!--<li class="collection-item">Alvin</li>-->
-                        <!--<li class="collection-item">Alvin</li>-->
-                        <!--<li class="collection-item">Alvin</li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-                <!--<div class="card-action">-->
-                    <!--<a href="#">This is a link</a>-->
-                    <!--<a href="#">This is a link</a>-->
-                <!--</div>-->
-            <!--</div>-->
+        <!--<div class="card black-text darken-1">-->
+        <!--<div class="card-content">-->
+        <!--<span class="card-title">新闻通信</span>-->
+        <!--<p>I am a very simple card. I am good at containing small bits of information.-->
+        <!--I am convenient because I require little markup to use effectively.</p>-->
+        <!--<ul class="collection">-->
+        <!--<li class="collection-item">Alvin</li>-->
+        <!--<li class="collection-item">Alvin</li>-->
+        <!--<li class="collection-item">Alvin</li>-->
+        <!--<li class="collection-item">Alvin</li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="card-action">-->
+        <!--<a href="#">This is a link</a>-->
+        <!--<a href="#">This is a link</a>-->
+        <!--</div>-->
+        <!--</div>-->
 
         <!--</div>-->
 
         <!--<div class="col m6 s12 ">-->
-            <!--<div class="card black-text darken-1">-->
-                <!--<div class="card-content">-->
-                    <!--<span class="card-title">最新成果</span>-->
-                    <!--<p>I am a very simple card. I am good at containing small bits of information.-->
-                        <!--I am convenient because I require little markup to use effectively.</p>-->
+        <!--<div class="card black-text darken-1">-->
+        <!--<div class="card-content">-->
+        <!--<span class="card-title">最新成果</span>-->
+        <!--<p>I am a very simple card. I am good at containing small bits of information.-->
+        <!--I am convenient because I require little markup to use effectively.</p>-->
 
-                    <!--<ul class="collapsible black-text">-->
-                        <!--<li>-->
-                            <!--<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>-->
-                            <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<div class="collapsible-header"><i class="material-icons">place</i>Second</div>-->
-                            <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>-->
-                            <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
-                        <!--</li>-->
-                    <!--</ul>-->
+        <!--<ul class="collapsible black-text">-->
+        <!--<li>-->
+        <!--<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>-->
+        <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<div class="collapsible-header"><i class="material-icons">place</i>Second</div>-->
+        <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>-->
+        <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
+        <!--</li>-->
+        <!--</ul>-->
 
-                <!--</div>-->
-                <!--<div class="card-action">-->
-                    <!--<a href="#">This is a link</a>-->
-                    <!--<a href="#">This is a link</a>-->
-                <!--</div>-->
-            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="card-action">-->
+        <!--<a href="#">This is a link</a>-->
+        <!--<a href="#">This is a link</a>-->
+        <!--</div>-->
+        <!--</div>-->
         <!--</div>-->
 
     </div>
@@ -222,7 +230,8 @@
 
                 <p class="grey-text text-lighten-4">遥感灾害监测、3S 集成技术、交通 GIS 技术和产品研发</p>
 
-                <p class="white-text valign-wrapper"> <i class="tiny material-icons">near_me</i> 湖北省武汉市珞瑜路129号武汉大学遥感信息工程学院&nbsp;430079</p>
+                <p class="white-text valign-wrapper"><i class="tiny material-icons">near_me</i>
+                    湖北省武汉市珞瑜路129号武汉大学遥感信息工程学院&nbsp;430079</p>
 
             </div>
             <div class="col l3 s6">
@@ -246,8 +255,8 @@
     <div class="footer-copyright">
         <div class="container white-text">Copyright © 2018 数字生活课题组. All rights reserved.
             <!--<span class="grey-text text-lighten-4 right">-->
-                <!--Powered by <a class="grey-text text-lighten-4" href="https://hexo.io" target="_blank">Hexo</a>.-->
-                <!--Theme - <a class="grey-text text-lighten-4" href="https://github.com/wshunli/hexo-theme-way" target="_blank">Way</a>-->
+            <!--Powered by <a class="grey-text text-lighten-4" href="https://hexo.io" target="_blank">Hexo</a>.-->
+            <!--Theme - <a class="grey-text text-lighten-4" href="https://github.com/wshunli/hexo-theme-way" target="_blank">Way</a>-->
             <!--</span>-->
         </div>
     </div>
