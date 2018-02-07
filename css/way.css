@@ -1,9 +1,6 @@
 .slider{
-    height: auto;
 }
-.slider .indicators{
-
-    height: auto;
+.slider .slides{
 }
 
 .card .card-content{
