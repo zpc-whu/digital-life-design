@@ -11,6 +11,9 @@
     padding: 10px 15px;
 }
 
+.card .card-action{
+    padding: 12px 0 12px 18px;
+}
 .material-icons{
     font-size: inherit;
 }
