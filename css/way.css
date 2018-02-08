@@ -6,3 +6,11 @@
 .card .card-content{
     padding: 14px 24px;
 }
+
+.icon-block{
+    padding: 10px 15px;
+}
+
+.material-icons{
+    font-size: inherit;
+}
