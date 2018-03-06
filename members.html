@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="http://lib.baomitu.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/materialize/0.100.2/css/materialize.css"
+    <link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/materialize/0.100.2/css/materialize.min.css"
           media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/way.css" media="screen,projection"/>
 
@@ -17,32 +17,35 @@
 <body>
 
 <div class="nav-extended blue hide-on-med-and-down">
+
     <div id="nav-logo" class="nav-wrapper container">
-        <div class="row valign-wrapper" style="margin-bottom: 0">
+        <div class="row valign-wrapper">
             <a class="col s5 validate valign-wrapper">
                 <img class="background valign" src="http://digital-life-cdn.wshunli.com/images/logo-nav-whu.png">
             </a>
             <div class="col s7 white-text validate">
-                <h4 class="row center">胡庆武教授研究团队</h4>
-                <h6 class="row center">Dr.Qingwu Hu's Research Group</h6>
+                <h3 class="row center">胡庆武教授研究团队</h3>
+                <h5 class="row center">Dr.Qingwu Hu's Research Group</h5>
             </div>
         </div>
     </div>
 
-    <div class="nav-content ">
-        <nav class=" white">
-            <div class=" container">
-                <ul id="nav-desktop" class="left">
-                    <li><a class="black-text" href="index.html">主页</a></li>
-                    <li><a class="black-text" href="#">胡庆武简介</a></li>
-                    <li><a class="black-text" href="members.html">研究团队</a></li>
-                    <li><a class="black-text" href="projects.html">研究方向</a></li>
-                    <li><a class="black-text" href="papers.html">发表论文</a></li>
-                    <li><a class="black-text" href="#">所获奖项</a></li>
-                    <li><a class="black-text" href="#">试验设备</a></li>
-                    <li><a class="black-text" href="#">English</a></li>
+    <div class="nav-content">
+        <nav id="nav-menu" class="white">
+            <div class="container row">
+                <ul class="left">
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="index.html">主页</a></li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold"
+                           href="resume/huqw.html">胡庆武简介</a></li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="members.html">研究团队</a>
+                    </li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="projects.html">研究方向</a>
+                    </li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="papers.html">发表论文</a></li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="#">所获奖项</a></li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="#">试验设备</a></li>
+                    <li><a class="black-text" style="font-size:medium;font-weight:bold" href="#">English</a></li>
                 </ul>
-
             </div>
         </nav>
     </div>
@@ -71,7 +74,7 @@
             </div>
         </li>
         <li><a class="waves-effect" href="index.html">主页</a></li>
-        <li><a class="waves-effect" href="#">胡庆武简介</a></li>
+        <li><a class="waves-effect" href="resume/huqw.html">胡庆武简介</a></li>
         <li><a class="waves-effect" href="members.html">研究团队</a></li>
         <li><a class="waves-effect" href="projects.html">研究方向</a></li>
         <li><a class="waves-effect" href="papers.html">发表论文</a></li>
@@ -487,30 +490,27 @@
 
 <footer class="page-footer blue">
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-bottom: 0">
             <div class="col l6 s12">
-                <h5 class="white-text">数字生活课题组</h5>
-
-                <p class="grey-text text-lighten-4">遥感灾害监测、3S 集成技术、交通 GIS 技术和产品研发</p>
-
-                <p class="white-text valign-wrapper"><i class="tiny material-icons">near_me</i>
-                    湖北省武汉市珞瑜路129号武汉大学遥感信息工程学院&nbsp;430079</p>
-
+                <h5 class="white-text">通讯地址</h5>
+                <!-- <p class="grey-text text-lighten-4">遥感灾害监测、3S 集成技术、交通 GIS 技术和产品研发</p> -->
+                <p class="white-text valign-wrapper">联系方式：湖北省武汉市洪山区珞瑜路129号 邮编：430079</p>
             </div>
             <div class="col l3 s6">
-                <h5 class="white-text">联系方式</h5>
+                <h5 class="white-text">电话/传真</h5>
                 <ul>
                     <li><a class="white-text" href="#!">电话：027-68778546</a></li>
                     <li><a class="white-text" href="#!">传真：027-68778086</a></li>
-                    <li><a class="white-text" href="#!">邮箱：huqw@whu.edu.cn</a></li>
                 </ul>
             </div>
             <div class="col l3 s6">
-                <h5 class="white-text">常用链接</h5>
+                <h5 class="white-text">电子邮箱</h5>
                 <ul>
-                    <li><a class="white-text" href="http://www.whu.edu.cn/">武汉大学</a></li>
+                    <li><a class="white-text" href="#!">huqw@whu.edu.cn</a></li>
+
+                    <!-- <li><a class="white-text" href="http://www.whu.edu.cn/">武汉大学</a></li>
                     <li><a class="white-text" href="http://rsgis.whu.edu.cn/">遥感信息工程学院</a></li>
-                    <li><a class="white-text" href="http://whu.edu.cn/">武汉大学电子邮箱</a></li>
+                    <li><a class="white-text" href="http://whu.edu.cn/">武汉大学电子邮箱</a></li> -->
                 </ul>
             </div>
         </div>
@@ -529,6 +529,6 @@
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/materialize/0.100.2/js/materialize.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/materialize/0.100.2/js/materialize.min.js"></script>
 <script type="text/javascript" src="js/way.js"></script>
 </html>
